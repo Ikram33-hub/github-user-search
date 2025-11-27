@@ -1,10 +1,12 @@
+import Search from "./components/Search";
+
 function App() {
   return (
-    <div style={{ padding: "20px", fontSize: "20px" }}>
+    <div className="App">
       <h1>GitHub User Search</h1>
-      <p>Welcome Ikram! Your project is running 🎉</p>
+      <Search />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
